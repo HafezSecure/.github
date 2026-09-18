@@ -31,13 +31,13 @@ HafezSecure is a cybersecurity company headquartered in Tehran, Iran. We deliver
 
 Proprietary platforms that enable and amplify our security services. See [all products](https://hafezsecure.ir/en/products).
 
-| | Platform | What it does | Deployment |
-|---|---|---|---|
-| <img src="products/vaaas-logo.svg" alt="VAaaS" width="44"> | **[VAaaS](https://hafezsecure.ir/en/products/vaaas)**<br>Vulnerability Assessment as a Service | A scalable assessment platform combining expert-led testing, automation and AI-assisted analysis | Cloud or on-premises |
-| <img src="products/asm-logo.svg" alt="ASM" width="44"> | **[ASM](https://hafezsecure.ir/en/products/asm)**<br>Attack Surface Management | Continuous discovery and monitoring for visibility into exposed assets and external risk signals, with AI-powered prioritization | Cloud or on-premises |
-| <img src="products/apea-logo.svg" alt="APEA" width="44"> | **[APEA](https://hafezsecure.ir/en/products/apea)**<br>Application Protection Effectiveness Analyzer | Profile-level WAF effectiveness analysis, tuning validation and application-specific protection optimization | On-premises |
-| <img src="products/asap-logo.svg" alt="ASAP" width="44"> | **[ASAP](https://hafezsecure.ir/en/products/asap)** `Beta`<br>Autonomous Security Assessment Platform | AI-driven autonomous security testing with logic-aware analysis, deep interaction and high-parallelism execution | Cloud or on-premises |
-| <img src="products/hafezctf-logo.svg" alt="HafezCTF" width="44"> | **[HafezCTF](https://hafezsecure.ir/en/products/hafezctf)** `Beta`<br>Security Training and Assessment Platform | Capture the Flag platform for assessment-grade competitions and hands-on learning paths | Your own infrastructure |
+| Platform | What it does | Deployment |
+|---|---|---|
+| <img src="products/vaaas-logo.svg" alt="VAaaS" width="40" height="40"><br>**[VAaaS](https://hafezsecure.ir/en/products/vaaas)**<br>Vulnerability Assessment as a Service | A scalable assessment platform combining expert-led testing, automation and AI-assisted analysis | Cloud or on-premises |
+| <img src="products/asm-logo.svg" alt="ASM" width="40" height="40"><br>**[ASM](https://hafezsecure.ir/en/products/asm)**<br>Attack Surface Management | Continuous discovery and monitoring for visibility into exposed assets and external risk signals, with AI-powered prioritization | Cloud or on-premises |
+| <img src="products/apea-logo.svg" alt="APEA" width="40" height="40"><br>**[APEA](https://hafezsecure.ir/en/products/apea)**<br>Application Protection Effectiveness Analyzer | Profile-level WAF effectiveness analysis, tuning validation and application-specific protection optimization | On-premises |
+| <img src="products/asap-logo.svg" alt="ASAP" width="40" height="40"><br>**[ASAP](https://hafezsecure.ir/en/products/asap)** `Beta`<br>Autonomous Security Assessment Platform | AI-driven autonomous security testing with logic-aware analysis, deep interaction and high-parallelism execution | Cloud or on-premises |
+| <img src="products/hafezctf-logo.svg" alt="HafezCTF" width="40" height="40"><br>**[HafezCTF](https://hafezsecure.ir/en/products/hafezctf)** `Beta`<br>Security Training and Assessment Platform | Capture the Flag platform for assessment-grade competitions and hands-on learning paths | Your own infrastructure |
 
 ## How we work
 

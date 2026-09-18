@@ -1,0 +1,2 @@
+# Keep the updater script out of the organization's language statistics.
+scripts/** linguist-detectable=false
