@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="asm-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C1C4F"/>
+      <stop offset="100%" stop-color="#341932"/>
+    </linearGradient>
+    <linearGradient id="asm-glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#BBA5B0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6C1C4F" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#asm-gradient)"/>
+  
+  <!-- Radar Rings -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#F4EDDB" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#F4EDDB" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#F4EDDB" stroke-width="1.5" stroke-opacity="0.6"/>
+  <circle cx="100" cy="100" r="15" fill="none" stroke="#F4EDDB" stroke-width="2" stroke-opacity="0.8"/>
+  
+  <!-- Radar Grid Lines -->
+  <line x1="100" y1="25" x2="100" y2="175" stroke="#F4EDDB" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="25" y1="100" x2="175" y2="100" stroke="#F4EDDB" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="47" y1="47" x2="153" y2="153" stroke="#F4EDDB" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="153" y1="47" x2="47" y2="153" stroke="#F4EDDB" stroke-width="0.5" stroke-opacity="0.3"/>
+  
+  <!-- Radar Sweep -->
+  <path d="M100 100 L100 25 A75 75 0 0 1 153 47 Z" fill="url(#asm-glow)"/>
+  
+  <!-- Detected Assets (Attack Surface Points) -->
+  <circle cx="135" cy="65" r="6" fill="#F4EDDB"/>
+  <circle cx="135" cy="65" r="10" fill="none" stroke="#F4EDDB" stroke-width="1" stroke-opacity="0.5"/>
+  
+  <circle cx="150" cy="115" r="4" fill="#BBA5B0"/>
+  <circle cx="150" cy="115" r="7" fill="none" stroke="#BBA5B0" stroke-width="1" stroke-opacity="0.5"/>
+  
+  <circle cx="60" cy="140" r="5" fill="#6C1C4F"/>
+  <circle cx="60" cy="140" r="8" fill="none" stroke="#6C1C4F" stroke-width="1" stroke-opacity="0.5"/>
+  
+  <circle cx="75" cy="70" r="4" fill="#F4EDDB" fill-opacity="0.7"/>
+  
+  <circle cx="115" cy="135" r="3" fill="#BBA5B0"/>
+  
+  <!-- Center Point -->
+  <circle cx="100" cy="100" r="5" fill="#F4EDDB"/>
+  <circle cx="100" cy="100" r="8" fill="none" stroke="#F4EDDB" stroke-width="1.5"/>
+</svg>

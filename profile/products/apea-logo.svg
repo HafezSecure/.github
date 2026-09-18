@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="apea-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C1C4F"/>
+      <stop offset="100%" stop-color="#341932"/>
+    </linearGradient>
+    <linearGradient id="shield-inner" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#F4EDDB"/>
+      <stop offset="100%" stop-color="#BBA5B0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#apea-gradient)"/>
+  
+  <!-- Shield Shape -->
+  <path d="M100 30 
+           L155 55 
+           L155 100 
+           C155 135 130 165 100 175 
+           C70 165 45 135 45 100 
+           L45 55 
+           Z" 
+        fill="none" 
+        stroke="#F4EDDB" 
+        stroke-width="3"/>
+  
+  <!-- Inner Shield -->
+  <path d="M100 45 
+           L140 65 
+           L140 100 
+           C140 125 120 150 100 158 
+           C80 150 60 125 60 100 
+           L60 65 
+           Z" 
+        fill="url(#shield-inner)" 
+        fill-opacity="0.2"/>
+  
+  <!-- Protection Effectiveness Bars -->
+  <!-- Bar Frame -->
+  <rect x="70" y="70" width="60" height="60" rx="5" fill="none" stroke="#F4EDDB" stroke-width="1.5"/>
+  
+  <!-- Effectiveness Meter Bars - Using brand colors -->
+  <rect x="78" y="115" width="10" height="10" fill="#F4EDDB"/>
+  <rect x="78" y="100" width="10" height="12" fill="#F4EDDB"/>
+  <rect x="78" y="85" width="10" height="12" fill="#F4EDDB"/>
+  <rect x="78" y="77" width="10" height="5" fill="#F4EDDB" fill-opacity="0.5"/>
+  
+  <rect x="95" y="115" width="10" height="10" fill="#BBA5B0"/>
+  <rect x="95" y="100" width="10" height="12" fill="#BBA5B0"/>
+  <rect x="95" y="90" width="10" height="7" fill="#BBA5B0" fill-opacity="0.5"/>
+  
+  <rect x="112" y="115" width="10" height="10" fill="#6C1C4F"/>
+  <rect x="112" y="105" width="10" height="7" fill="#6C1C4F" fill-opacity="0.5"/>
+  
+  <!-- Checkmark for effectiveness -->
+  <path d="M80 60 L88 68 L105 48" stroke="#F4EDDB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Small X for blocked attack -->
+  <path d="M115 52 L125 62 M125 52 L115 62" stroke="#BBA5B0" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- WAF Text indicator -->
+  <text x="100" y="145" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F4EDDB" text-anchor="middle">WAF</text>
+</svg>

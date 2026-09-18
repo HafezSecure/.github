@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vaaas-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C1C4F"/>
+      <stop offset="100%" stop-color="#341932"/>
+    </linearGradient>
+    <linearGradient id="vaaas-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BBA5B0"/>
+      <stop offset="100%" stop-color="#85727C"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#vaaas-gradient)"/>
+  
+  <!-- Inner Circle with scan effect -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#F4EDDB" stroke-width="2" stroke-dasharray="8 4"/>
+  
+  <!-- Scanning Lines -->
+  <path d="M100 30 L100 55" stroke="#F4EDDB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M100 145 L100 170" stroke="#F4EDDB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 100 L55 100" stroke="#F4EDDB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 100 L170 100" stroke="#F4EDDB" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Diagonal Scanning Lines -->
+  <path d="M50.5 50.5 L68.2 68.2" stroke="#BBA5B0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M131.8 131.8 L149.5 149.5" stroke="#BBA5B0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M149.5 50.5 L131.8 68.2" stroke="#BBA5B0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M68.2 131.8 L50.5 149.5" stroke="#BBA5B0" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Center Target/Scanner -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#F4EDDB" stroke-width="2"/>
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#BBA5B0" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="8" fill="#F4EDDB"/>
+  
+  <!-- Vulnerability Detection Points - Using brand colors -->
+  <circle cx="75" cy="82" r="5" fill="#F4EDDB"/>
+  <circle cx="130" cy="95" r="4" fill="#BBA5B0"/>
+  <circle cx="90" cy="125" r="4" fill="#BBA5B0"/>
+  
+  <!-- Scan Wave Effect -->
+  <path d="M100 100 Q130 70 155 100" stroke="#F4EDDB" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+  <path d="M100 100 Q70 130 45 100" stroke="#F4EDDB" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+</svg>

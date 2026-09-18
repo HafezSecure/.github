@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hafezctf-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C1C4F"/>
+      <stop offset="100%" stop-color="#341932"/>
+    </linearGradient>
+    <linearGradient id="hafezctf-flag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EDDB"/>
+      <stop offset="100%" stop-color="#BBA5B0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#hafezctf-gradient)"/>
+
+  <!-- Target Rings -->
+  <circle cx="100" cy="100" r="68" fill="none" stroke="#F4EDDB" stroke-width="1.5" stroke-opacity="0.35"/>
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#F4EDDB" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="4 5"/>
+
+  <!-- Flag Pole -->
+  <line x1="80" y1="42" x2="80" y2="128" stroke="#F4EDDB" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="80" cy="40" r="4" fill="#F4EDDB"/>
+
+  <!-- Flag -->
+  <path d="M82 48 C97 42 110 56 126 50 C134 47 140 46 144 48 L144 90 C140 88 134 89 126 92 C110 98 97 84 82 90 Z" fill="url(#hafezctf-flag)"/>
+
+  <!-- Code Brackets on Flag -->
+  <path d="M102 60 L95 69 L102 78" stroke="#6C1C4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M122 58 L129 67 L122 76" stroke="#6C1C4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Base -->
+  <path d="M66 128 L94 128" stroke="#F4EDDB" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- CTF Badge -->
+  <rect x="72" y="140" width="56" height="22" rx="11" fill="#F4EDDB"/>
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#341932" text-anchor="middle">CTF</text>
+</svg>

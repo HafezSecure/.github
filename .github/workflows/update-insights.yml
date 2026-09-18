@@ -1,0 +1,38 @@
+name: Update latest insights
+
+# Keeps the "Latest insights" list on the organization profile in step with the
+# website's RSS feed. Commits only when the list changes.
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-insights
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Refresh the list from the feed
+        run: python scripts/update_insights.py
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "Latest insights unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Update latest insights from the website feed"
+          git push
