@@ -48,9 +48,9 @@ Our work follows the *Makth* (مکث) principle: meaning and substance over appe
 ## Latest insights
 
 <!-- INSIGHTS:START -->
+- [Prompt injection in Persian chatbots](https://hafezsecure.ir/en/insights/prompt-injection-chatbots) · 22 Sep 2026
 - [How to security-test an LLM application](https://hafezsecure.ir/en/insights/llm-application-security-testing) · 18 Sep 2026
 - [What a penetration test report must contain](https://hafezsecure.ir/en/insights/pentest-report-contents) · 15 Sep 2026
-- [Vulnerability assessment vs penetration test](https://hafezsecure.ir/en/insights/vulnerability-assessment-vs-penetration-test) · 15 Sep 2026
 <!-- INSIGHTS:END -->
 
 More guides and analyses on penetration testing, secure development, protection and monitoring in [Insights](https://hafezsecure.ir/en/insights). Open-source Burp Suite extensions and vulnerable-by-design training labs by our founder, [Moein Fatehi](https://github.com/moeinfatehi).
