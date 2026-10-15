@@ -50,7 +50,7 @@ Our work follows the *Makth* (مکث) principle: meaning and substance over appe
 ## Latest insights
 
 <!-- INSIGHTS:START -->
-- [Prompt injection in Persian chatbots](https://hafezsecure.ir/en/insights/prompt-injection-chatbots) · 22 Sep 2026
+- [Prompt injection in Persian chatbots](https://hafezsecure.ir/en/insights/prompt-injection-persian-chatbots) · 22 Sep 2026
 - [How to security-test an LLM application](https://hafezsecure.ir/en/insights/llm-application-security-testing) · 18 Sep 2026
 - [What a penetration test report must contain](https://hafezsecure.ir/en/insights/pentest-report-contents) · 15 Sep 2026
 <!-- INSIGHTS:END -->
