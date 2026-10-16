@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="am-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C1C4F"/>
+      <stop offset="100%" stop-color="#341932"/>
+    </linearGradient>
+    <linearGradient id="am-face" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#F4EDDB" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#BBA5B0" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#am-gradient)"/>
+
+  <!-- Layered inventory: three stacked, typed cards (an asset catalogue) -->
+  <!-- Back layer -->
+  <rect x="58" y="54" width="84" height="40" rx="8" fill="#F4EDDB" fill-opacity="0.25" stroke="#F4EDDB" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- Middle layer -->
+  <rect x="52" y="78" width="96" height="44" rx="9" fill="#BBA5B0" fill-opacity="0.45" stroke="#F4EDDB" stroke-opacity="0.5" stroke-width="1.5"/>
+
+  <!-- Front layer (the live record) -->
+  <rect x="46" y="104" width="108" height="50" rx="10" fill="url(#am-face)"/>
+  <!-- Record rows -->
+  <rect x="78" y="116" width="62" height="6" rx="3" fill="#341932" fill-opacity="0.6"/>
+  <rect x="78" y="129" width="46" height="5" rx="2.5" fill="#341932" fill-opacity="0.4"/>
+  <rect x="78" y="140" width="54" height="5" rx="2.5" fill="#341932" fill-opacity="0.4"/>
+
+  <!-- Evidence / provenance marker: a cited, verified field -->
+  <circle cx="62" cy="129" r="11" fill="#6C1C4F"/>
+  <path d="M57 129.5 L60.5 133 L67 125.5" fill="none" stroke="#F4EDDB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Confidence dots on the back layers (assets with provenance) -->
+  <circle cx="70" cy="74" r="3.5" fill="#F4EDDB" fill-opacity="0.85"/>
+  <circle cx="84" cy="74" r="3.5" fill="#F4EDDB" fill-opacity="0.5"/>
+  <circle cx="98" cy="74" r="3.5" fill="#F4EDDB" fill-opacity="0.3"/>
+</svg>
