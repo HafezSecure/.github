@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="academy-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C1C4F"/>
+      <stop offset="100%" stop-color="#341932"/>
+    </linearGradient>
+    <linearGradient id="academy-cap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EDDB"/>
+      <stop offset="100%" stop-color="#BBA5B0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#academy-gradient)"/>
+
+  <!-- Orbit rings -->
+  <circle cx="100" cy="100" r="68" fill="none" stroke="#F4EDDB" stroke-width="1.5" stroke-opacity="0.35"/>
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#F4EDDB" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="4 5"/>
+
+  <!-- Mortarboard cap top -->
+  <path d="M100 54 L156 78 L100 102 L44 78 Z" fill="url(#academy-cap)"/>
+  <!-- Cap band (head) -->
+  <path d="M72 88 L72 106 C72 116 128 116 128 106 L128 88 L100 100 Z" fill="#F4EDDB" fill-opacity="0.9"/>
+  <!-- Tassel -->
+  <path d="M100 78 L150 78 L150 116" stroke="#6C1C4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="150" cy="120" r="5" fill="#F4EDDB"/>
+
+  <!-- Skill ladder: from zero, upward -->
+  <path d="M60 150 L84 150 M72 150 L112 150 M96 150 L140 150" stroke="#F4EDDB" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+</svg>
