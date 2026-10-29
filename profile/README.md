@@ -51,9 +51,9 @@ Our work follows the *Makth* (مکث) principle: meaning and substance over appe
 ## Latest insights
 
 <!-- INSIGHTS:START -->
+- [What leaks into AI, and how to stop it](https://hafezsecure.ir/en/insights/ai-data-leakage-prevention) · 29 Oct 2026
 - [PHP2Shell: the critical PHP flaws and what to do now](https://hafezsecure.ir/en/insights/php2shell) · 22 Oct 2026
 - [Rules for using AI coding assistants safely](https://hafezsecure.ir/en/insights/ai-coding-assistant-security) · 19 Oct 2026
-- [How effective is your WAF, really?](https://hafezsecure.ir/en/insights/waf-effectiveness-testing) · 19 Oct 2026
 <!-- INSIGHTS:END -->
 
 More guides and analyses on penetration testing, secure development, protection and monitoring in [Insights](https://hafezsecure.ir/en/insights). Open-source Burp Suite extensions and vulnerable-by-design training labs by our founder, [Moein Fatehi](https://github.com/moeinfatehi).
